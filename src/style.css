@@ -1,0 +1,23 @@
+@font-face {
+  /* font-family: "Quicksand"; */
+  /* src: url("./assets/fonts/Quicksand-Medium.ttf"); */
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  /* background-color: #F2F3F3; */
+  @apply bg-gray-50
+}
+
+#app {
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  /* 去除button样式 */
+  -webkit-tap-highlight-color: transparent;
+  /* 不可复制 */
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none;
+}

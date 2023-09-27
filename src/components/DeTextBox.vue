@@ -1,0 +1,16 @@
+<template>
+  <div
+    flex
+    text-4
+    text-gray-9
+    rounded-lg
+    border-2
+    duration-300
+    items-center
+    justify-center
+  >
+    <div>
+        <slot></slot>
+    </div>
+  </div>
+</template>
