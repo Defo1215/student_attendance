@@ -139,4 +139,5 @@ const linkTo = (event) => {
     `/recordDetails/${event.timestamp}/${event.grade}/${event.courseId}`
   );
 };
+
 </script>
